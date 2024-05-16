@@ -3,6 +3,19 @@
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
 <meta name="generator" content="ReSpec 34.1.4">
 <style>
+.issue-label{text-transform:initial}
+.warning>p:first-child{margin-top:0}
+.warning{padding:.5em;border-left-width:.5em;border-left-style:solid}
+span.warning{padding:.1em .5em .15em}
+.issue.closed span.issue-number{text-decoration:line-through}
+.issue.closed span.issue-number::after{content:" (Closed)";font-size:smaller}
+.warning{border-color:#f11;border-width:.2em;border-style:solid;background:#fbe9e9}
+.warning-title:before{content:"⚠";font-size:1.3em;float:left;padding-right:.3em;margin-top:-.3em}
+li.task-list-item{list-style:none}
+input.task-list-item-checkbox{margin:0 .35em .25em -1.6em;vertical-align:middle}
+.issue a.respec-gh-label{padding:5px;margin:0 2px 0 2px;font-size:10px;text-transform:none;text-decoration:none;font-weight:700;border-radius:4px;position:relative;bottom:2px;border:none;display:inline-block}
+</style>
+<style>
 dfn{cursor:pointer}
 .dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;color:#000;box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);border-radius:2px}
 .dfn-panel:not(.docked)>.caret{position:absolute;top:-9px}
@@ -400,7 +413,10 @@ onderstaande tabel.</p>
 <td>Hier staat een voorbeeld van hoe het veld bijvoorbeeld ingevuld kan worden.</td>
 </tr>
 </tbody></table>
-<p>De <cite><a data-matched-text="[[[NLSBB]]]" href="https://docs.geostandaarden.nl/nl-sbb/nl-sbb/">NL-SBB - Standaard voor het beschrijven van begrippen</a></cite> geeft aan hoe begrippen in een begrippenlijst, taxonomie of thesaurus eenduidig worden beschreven. In een volgende versie van deze standaard conformeren we deze daarmee. Voor referentie doeleinden voegen we al wel alvast de voorkeursterm toe bij ieder informatieveld. Een voorkeursterm is een naam die in een specifieke taal de geprefereerde lexicale naam is.</p>
+<div class="note" role="note" id="issue-container-generatedID"><div role="heading" class="note-title marker" id="h-note" aria-level="3"><span>Noot</span><span class="issue-label">: bron</span></div><p class="">
+De <cite><a data-matched-text="[[[NLSBB]]]" href="https://docs.geostandaarden.nl/nl-sbb/nl-sbb/">NL-SBB - Standaard voor het beschrijven van begrippen</a></cite> geeft aan hoe begrippen in een begrippenlijst, taxonomie of thesaurus eenduidig worden beschreven. In een volgende versie van deze standaard conformeren we deze daarmee. Voor referentie doeleinden voegen we al wel alvast de voorkeursterm toe bij ieder informatieveld. Een voorkeursterm is een naam die in een specifieke taal de geprefereerde lexicale naam is.
+</p></div>
+
 <p>Vanaf hier volgt de in te vullen informatie van ieder veld.</p>
 <section id="algemene-informatie"><div class="header-wrapper"><h3 id="x2-1-algemene-informatie"><bdi class="secno">2.1 </bdi>Algemene Informatie</h3><a class="self-link" href="#algemene-informatie" aria-label="Permalink for Section 2.1"></a></div>
 <section id="naam"><div class="header-wrapper"><h4 id="x2-1-1-naam"><bdi class="secno">2.1.1 </bdi>Naam</h4><a class="self-link" href="#naam" aria-label="Permalink for Section 2.1.1"></a></div>
@@ -561,7 +577,7 @@ onderstaande tabel.</p>
 </tr>
 <tr>
 <td><strong>Instructies</strong></td>
-<td>De huidige status van het algoritme:<li>In ontwikkeling</li><li>In gebruik</li><li>Buiten gebruik.<br><br>Indien het algoritme zowel in ontwikkeling als in gebruik is, kies voor ‘In gebruik’.<br><br>Ten behoeve van de websitefunctionaliteit is het noodzakelijk om geen andere informatie in dit veld op te nemen dan een van de keuzes hierboven.<br><br>Het is niet verplicht algoritmes in ontwikkeling of buiten gebruik te vermelden in het Algoritmeregister. De mogelijkheid wordt wel geboden voor organisaties die burgers willen betrekken al tijdens de ontwikkelingen van algoritmes.</li></td>
+<td>De huidige status van het algoritme:<li>In ontwikkeling</li><li>In gebruik</li><li>Buiten gebruik.</li><br><br>Indien het algoritme zowel in ontwikkeling als in gebruik is, kies voor ‘In gebruik’.<br><br>Ten behoeve van de websitefunctionaliteit is het noodzakelijk om geen andere informatie in dit veld op te nemen dan een van de keuzes hierboven.<br><br>Het is niet verplicht algoritmes in ontwikkeling of buiten gebruik te vermelden in het Algoritmeregister. De mogelijkheid wordt wel geboden voor organisaties die burgers willen betrekken al tijdens de ontwikkelingen van algoritmes.</td>
 </tr>
 <tr>
 <td><strong>Voorbeeld</strong></td>
@@ -856,9 +872,7 @@ onderstaande tabel.</p>
 
 <section id="references" class="appendix"><div class="header-wrapper"><h2 id="b-referenties"><bdi class="secno">B. </bdi>Referenties</h2><a class="self-link" href="#references" aria-label="Permalink for Appendix B."></a></div><section id="normatieve-referenties">
     <div class="header-wrapper"><h3 id="b-1-normatieve-referenties"><bdi class="secno">B.1 </bdi>Normatieve referenties</h3><a class="self-link" href="#normatieve-referenties" aria-label="Permalink for Appendix B.1"></a></div>
-    <dl class="bibliography"><dt id="bib-nlsbb">[NLSBB]</dt><dd>
-      <a href="https://docs.geostandaarden.nl/nl-sbb/nl-sbb/"><cite>NL-SBB - Standaard voor het beschrijven van begrippen</cite></a>. Geonovum Standaard - versie ter vaststelling.. 16 april 2024. URL: <a href="https://docs.geostandaarden.nl/nl-sbb/nl-sbb/">https://docs.geostandaarden.nl/nl-sbb/nl-sbb/</a>
-    </dd><dt id="bib-tooi_wl">[TOOI_WL]</dt><dd>
+    <dl class="bibliography"><dt id="bib-tooi_wl">[TOOI_WL]</dt><dd>
       <a href="https://standaarden.overheid.nl/tooi/waardelijsten/"><cite>TOOI-waardelijsten</cite></a>.  Kennis- en exploitatiecentrum Officiële Overheidspublicaties (KOOP). URL: <a href="https://standaarden.overheid.nl/tooi/waardelijsten/">https://standaarden.overheid.nl/tooi/waardelijsten/</a>
     </dd><dt id="bib-top_lijst">[TOP_Lijst]</dt><dd>
       <a href="https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/thema-indeling-voor-officiele-publicaties"><cite>Thema-indeling voor Officiële Publicaties</cite></a>.  Kennis- en exploitatiecentrum Officiële Overheidspublicaties (KOOP). URL: <a href="https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/thema-indeling-voor-officiele-publicaties">https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/thema-indeling-voor-officiele-publicaties</a>
@@ -867,6 +881,8 @@ onderstaande tabel.</p>
     <div class="header-wrapper"><h3 id="b-2-informatieve-referenties"><bdi class="secno">B.2 </bdi>Informatieve referenties</h3><a class="self-link" href="#informatieve-referenties" aria-label="Permalink for Appendix B.2"></a></div>
     <dl class="bibliography"><dt id="bib-b1">[B1]</dt><dd>
       <a href="https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-richtlijnen/taalniveau-b1"><cite>Wat houdt taalniveau B1 in?</cite></a>.  CommunicatieRijk, over overheidscommunicatie. URL: <a href="https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-richtlijnen/taalniveau-b1">https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-richtlijnen/taalniveau-b1</a>
+    </dd><dt id="bib-nlsbb">[NLSBB]</dt><dd>
+      <a href="https://docs.geostandaarden.nl/nl-sbb/nl-sbb/"><cite>NL-SBB - Standaard voor het beschrijven van begrippen</cite></a>. Geonovum Standaard - versie ter vaststelling.. 16 april 2024. URL: <a href="https://docs.geostandaarden.nl/nl-sbb/nl-sbb/">https://docs.geostandaarden.nl/nl-sbb/nl-sbb/</a>
     </dd></dl>
   </section></section><p role="navigation" id="back-to-top">
     <a href="#title"><abbr title="Back to Top">↑</abbr></a>
