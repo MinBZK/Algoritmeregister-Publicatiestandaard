@@ -1,25 +1,33 @@
 // Plaats dit bestand op een centrale locatie voor hergebruik in meerdere documenten.
 var organisationConfig = {
-    nl_organisationName: "Logius",
-    nl_organisationStylesURL: "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
-    nl_organisationPublishURL: "https://gitdocumentatie.logius.nl/publicatie/",
-    logos: [{
+    nl_organisationName: "MinBZK",
+    nl_organisationStylesURL:
+      "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
+    nl_organisationPublishURL: "https://regels.overheid.nl/publicaties/",
+    logos: [
+      {
         src: "https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/figure-logius.svg",
         alt: "Logius",
         id: "Logius",
         height: 77,
         width: 44,
         url: "https://www.logius.nl/standaarden",
-    }],
-
+      },
+    ],
+  
     postProcess: [window.respecMermaid.createFigures],
-
-    latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
-    thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
-    prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
+  
+    // Original config
+    //    latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
+    //    thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
+    //    prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
+  
+    latestVersion: ["nl_organisationPublishURL", "shortName"],
+    thisVersion: ["nl_organisationPublishURL", "shortName", "/v", "publishVersion"],
+    prevVersion: ["nl_organisationPublishURL", "shortName", "/v", "previousPublishVersion"],
     useLogo: true,
     useLabel: true,
-
+  
     license: "cc0",
     addSectionLinks: true,
 

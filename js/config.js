@@ -1,43 +1,51 @@
 let respecConfig = {
+  // Config parameters
   useLogo: true,
   useLabel: true,
-  license: "cc-by",
-  specStatus: "DEF",
-  specType: "HR",
-  pubDomain: "dk",
-  shortName: "template",
-  publishDate: "2023-06-21",
-  publishVersion: "0.0.3",
-  
-  previousPublishVersion: "0.0.2",
-  previousPublishDate: "2022-06-24",
-  previousMaturity: "WV",
-  title: "titleText",
-  content: {"ch01": "informative", "ch02": "", "mermaid": ""},
-  editors:
-    [
-      {
-        name: "Logius Standaarden",
-        company: "Logius",
-        companyURL: "https://github.com/Logius-standaarden",
-      }
-    ],
-  authors:
-    [
-      {
-        name: "Logius Standaarden",
-        company: "Logius",
-        companyURL: "https://github.com/Logius-standaarden",
-      }
-    ],
-  github: "https://github.com/Logius-standaarden/ReSpec-template",
+  license: "cc0",
+  specStatus: "WV",
+  specType: "ST",
+  pubDomain: "ronl",
 
+  // shortName = Repository name
+  shortName: "Algoritmeregister-Publicatiestandaard ",
+  publishDate: "2024-05-16",
+  publishVersion: "0.1.0",
+
+  previousPublishVersion: "",
+  previousPublishDate: "",
+  previousMaturity: "",
+  title: "Algoritmeregister Publicatiestandaard ",
+  subtitle:
+    "Bevat de publicatiestandaard van het Algoritmeregister. Het is bedoeld om overheidsorganisaties te helpen bij het invullen.",
+
+  // Content
+  content: { ch01: "informative", ch02: "", ch03: "", ch04: "" },
+  editors: [
+    {
+      name: "Steven Gort",
+      mailto: "steven.gort@ictu.nl",
+      company: "ICTU",
+      companyURL: "http://www.ictu.nl",
+    },
+  ],
+  authors: [
+    {
+      name: "Hayo Schreijer",
+      url: "https://www.dexes.nl",
+    },
+    {
+      name: "Steven Gort",
+      url: "https://www.ictu.nl",
+    },
+  ],
+  github: "https://github.com/MinBZK/dcat-ap-ronl/",
 
   // Create PDF and link to file in header (optional):
   alternateFormats: [
-      {
-          label: "pdf",
-          uri: "template.pdf",
-      },
+    {
+      label: "pdf",
+      uri: "DCAT-AP-RONL.pdf",
+    },
   ],
 };
