@@ -22,30 +22,30 @@ let respecConfig = {
   // Content
   content: { ch01: "informative", ch02: "" },
   editors: [
-    {
-      name: "Jasper van der Heide",
-      mailto: "Jasper.Heide@rijksoverheid.nl",
-      company: "minBZK",
-      companyURL: "http://www.minbzk.nl",
-    },
+//    {
+//      name: "Jasper van der Heide",
+//      mailto: "Jasper.Heide@rijksoverheid.nl",
+//      company: "minBZK",
+//      companyURL: "http://www.minbzk.nl",
+//    },
   ],
   authors: [
-    {
-      name: "Marjolein Kortemann",
-      url: "https://www.minbzk.nl",
-    },
-    {
-      name: "Jasper van der Heide",
-      url: "https://www.minbzk.nl",
-    },
-    {
-      name: "Lars Musters",
-      url: "https://www.ictu.nl",
-    },
-    {
-      name: "Aniell Jaggi",
-      url: "https://www.ictu.nl",
-    },
+//    {
+//      name: "Marjolein Kortemann",
+//      url: "https://www.minbzk.nl",
+//    },
+//    {
+//      name: "Jasper van der Heide",
+//      url: "https://www.minbzk.nl",
+//    },
+//    {
+//      name: "Lars Musters",
+//      url: "https://www.ictu.nl",
+//    },
+//    {
+//      name: "Aniell Jaggi",
+//      url: "https://www.ictu.nl",
+//    },
   ],
   github: "https://github.com/MinBZK/Algoritmeregister-Publicatiestandaard/",
 
