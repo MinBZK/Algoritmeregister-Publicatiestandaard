@@ -8,7 +8,7 @@ let respecConfig = {
   pubDomain: "ronl",
 
   // shortName = Repository name
-  shortName: "Algoritmeregister-Publicatiestandaard ",
+  shortName: "Algoritmeregister-Publicatiestandaard",
   publishDate: "2024-05-16",
   publishVersion: "0.1.0",
 
@@ -23,29 +23,37 @@ let respecConfig = {
   content: { ch01: "informative", ch02: "", ch03: "", ch04: "" },
   editors: [
     {
-      name: "Steven Gort",
-      mailto: "steven.gort@ictu.nl",
-      company: "ICTU",
-      companyURL: "http://www.ictu.nl",
+      name: "Jasper van der Heide",
+      mailto: "Jasper.Heide@rijksoverheid.nl",
+      company: "minBZK",
+      companyURL: "http://www.minbzk.nl",
     },
   ],
   authors: [
     {
-      name: "Hayo Schreijer",
-      url: "https://www.dexes.nl",
+      name: "Marjolein Kortemann",
+      url: "https://www.minbzk.nl",
     },
     {
-      name: "Steven Gort",
+      name: "Jasper van der Heide",
+      url: "https://www.minbzk.nl",
+    },
+    {
+      name: "Lars Musters",
+      url: "https://www.ictu.nl",
+    },
+    {
+      name: "Aniell Jaggi",
       url: "https://www.ictu.nl",
     },
   ],
-  github: "https://github.com/MinBZK/dcat-ap-ronl/",
+  github: "https://github.com/MinBZK/Algoritmeregister-Publicatiestandaard/",
 
   // Create PDF and link to file in header (optional):
   alternateFormats: [
     {
       label: "pdf",
-      uri: "DCAT-AP-RONL.pdf",
+      uri: "Algoritmeregister-Publicatiestandaard.pdf",
     },
   ],
 };
