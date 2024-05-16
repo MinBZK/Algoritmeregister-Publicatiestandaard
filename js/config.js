@@ -20,7 +20,7 @@ let respecConfig = {
     "Bevat de publicatiestandaard van het Algoritmeregister. Het is bedoeld om overheidsorganisaties te helpen bij het invullen.",
 
   // Content
-  content: { ch01: "informative", ch02: "", ch03: "", ch04: "" },
+  content: { ch01: "informative", ch02: "" },
   editors: [
     {
       name: "Jasper van der Heide",
