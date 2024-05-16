@@ -69,7 +69,12 @@ let respecConfig = {
       href: "https://standaarden.overheid.nl/tooi/waardelijsten/",
       publisher: "Kennis- en exploitatiecentrum Officiële Overheidspublicaties (KOOP)",
       },
+    TOP_Lijst: {
+      title: "Thema-indeling voor Officiële Publicaties",
+      href: "https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/thema-indeling-voor-officiele-publicaties",
+      publisher: "Kennis- en exploitatiecentrum Officiële Overheidspublicaties (KOOP)",
       },
+    },
 
   // Create PDF and link to file in header (optional):
   alternateFormats: [
