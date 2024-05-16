@@ -64,7 +64,12 @@ let respecConfig = {
       ],
       date: "16 april 2024",
       },
-    },
+      TOOI_WL: {
+        title: "TOOI-waardelijsten",
+        href: "https://standaarden.overheid.nl/tooi/waardelijsten/",
+        publisher: "Kennis- en exploitatiecentrum Officiële Overheidspublicaties (KOOP)",
+        },
+      },
 
   // Create PDF and link to file in header (optional):
   alternateFormats: [
