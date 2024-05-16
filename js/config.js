@@ -49,6 +49,15 @@ let respecConfig = {
   ],
   github: "https://github.com/MinBZK/Algoritmeregister-Publicatiestandaard/",
 
+  // References & footnotes
+  localBiblio: {
+    B1: {
+      title: "Wat houdt taalniveau B1 in?",
+      href: "https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-richtlijnen/taalniveau-b1",
+      publisher: "CommunicatieRijk, over overheidscommunicatie",
+      },
+    },
+
   // Create PDF and link to file in header (optional):
   alternateFormats: [
     {
