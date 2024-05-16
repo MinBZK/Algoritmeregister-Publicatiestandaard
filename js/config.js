@@ -56,6 +56,14 @@ let respecConfig = {
       href: "https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-richtlijnen/taalniveau-b1",
       publisher: "CommunicatieRijk, over overheidscommunicatie",
       },
+    NLSBB: {
+      href: "https://docs.geostandaarden.nl/nl-sbb/nl-sbb/",
+      title: "NL-SBB - Standaard voor het beschrijven van begrippen",
+      authors: [
+        "Geonovum Standaard - versie ter vaststelling.",
+      ],
+      date: "16 april 2024",
+      },
     },
 
   // Create PDF and link to file in header (optional):
