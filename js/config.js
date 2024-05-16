@@ -74,6 +74,15 @@ let respecConfig = {
       href: "https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/thema-indeling-voor-officiele-publicaties",
       publisher: "Kennis- en exploitatiecentrum Officiële Overheidspublicaties (KOOP)",
       },
+    IAMA: {
+      title: "Impact Assessment Mensenrechten en Algoritmes (IAMA)",
+      href: "https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes",
+      publisher: "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
+      },
+    DPIA: {
+      title: "Data protection impact assessment (DPIA)",
+      href: "https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia",
+      publisher: "De Autoriteit Persoonsgegevens (AP) ",        },
     },
 
   // Create PDF and link to file in header (optional):
