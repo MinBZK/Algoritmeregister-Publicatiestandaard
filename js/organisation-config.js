@@ -92,6 +92,7 @@ var organisationConfig = {
     labelColor: {
         def: "#154273",
         wv: "#39870c",
+        cv: "#045D9F",
     },
 	
     licenses: {
