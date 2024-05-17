@@ -10,7 +10,7 @@ let respecConfig = {
   // shortName = Repository name
   shortName: "Algoritmeregister-Publicatiestandaard",
   publishDate: "2024-05-17",
-  publishVersion: "1.0.2",
+  publishVersion: "1.0.3",
 
   previousPublishVersion: "",
   previousPublishDate: "",
