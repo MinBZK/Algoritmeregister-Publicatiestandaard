@@ -3,14 +3,14 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   license: "cc0",
-  specStatus: "WV",
+  specStatus: "cv",
   specType: "ST",
   pubDomain: "ronl",
 
   // shortName = Repository name
   shortName: "Algoritmeregister-Publicatiestandaard",
   publishDate: "2023-11-30",
-  publishVersion: "0.1.0",
+  publishVersion: "1.0.1",
 
   previousPublishVersion: "",
   previousPublishDate: "",
