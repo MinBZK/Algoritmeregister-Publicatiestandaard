@@ -9,7 +9,7 @@ let respecConfig = {
 
   // shortName = Repository name
   shortName: "Algoritmeregister-Publicatiestandaard",
-  publishDate: "2024-05-16",
+  publishDate: "2023-11-30",
   publishVersion: "0.1.0",
 
   previousPublishVersion: "",
@@ -20,7 +20,7 @@ let respecConfig = {
     "Bevat de publicatiestandaard van het Algoritmeregister. Het is bedoeld om overheidsorganisaties te helpen bij het invullen.",
 
   // Content
-  content: { ch01: "informative", ch02: "" },
+  content: { ch01: "informative", ch02: "", ch03: "" },
   editors: [
 //    {
 //      name: "Jasper van der Heide",
