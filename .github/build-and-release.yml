@@ -9,5 +9,5 @@ jobs:
     steps:
       - uses: minbzk/regels.overheid.nl/.github/actions/build-and-release-respec-document@main
         with:
-          name: ' Algoritmeregister-Publicatiestandaard'
+          name: 'Algoritmeregister-Publicatiestandaard'
           token: ${{ secrets.GITHUB_TOKEN }}
