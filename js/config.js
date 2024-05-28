@@ -22,30 +22,18 @@ let respecConfig = {
   // Content
   content: { ch01: "informative", ch02: "", ch03: "" },
   editors: [
-//    {
-//      name: "Jasper van der Heide",
-//      mailto: "Jasper.Heide@rijksoverheid.nl",
-//      company: "minBZK",
-//      companyURL: "http://www.minbzk.nl",
-//    },
+    {
+      name: "Logius Standaarden",
+      company: "Logius",
+      companyURL: "https://github.com/Logius-standaarden",
+    },
   ],
-  authors: [
-//    {
-//      name: "Marjolein Kortemann",
-//      url: "https://www.minbzk.nl",
-//    },
-//    {
-//      name: "Jasper van der Heide",
-//      url: "https://www.minbzk.nl",
-//    },
-//    {
-//      name: "Lars Musters",
-//      url: "https://www.ictu.nl",
-//    },
-//    {
-//      name: "Aniell Jaggi",
-//      url: "https://www.ictu.nl",
-//    },
+  authors: [  
+    {
+      name: "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
+      company: "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
+      url: "https://www.minbzk.nl",
+    },
   ],
   github: "https://github.com/MinBZK/Algoritmeregister-Publicatiestandaard/",
 
