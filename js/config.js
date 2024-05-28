@@ -10,7 +10,7 @@ let respecConfig = {
   // shortName = Repository name
   shortName: "Algoritmeregister-Publicatiestandaard",
   publishDate: "2024-05-28",
-  publishVersion: "1.0.6",
+  publishVersion: "1.0.7",
 
   previousPublishVersion: "1.0.5",
   previousPublishDate: "2024-05-17",
@@ -31,7 +31,6 @@ let respecConfig = {
   authors: [  
     {
       name: "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
-      company: "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
       url: "https://www.minbzk.nl",
     },
   ],
