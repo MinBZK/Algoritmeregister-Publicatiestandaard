@@ -28,7 +28,7 @@ let respecConfig = {
       companyURL: "https://github.com/Logius-standaarden",
     },
   ],
-  authors: [  
+  authors: [
     {
       name: "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
       url: "https://www.minbzk.nl",
@@ -42,41 +42,42 @@ let respecConfig = {
       title: "Wat houdt taalniveau B1 in?",
       href: "https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-richtlijnen/taalniveau-b1",
       publisher: "CommunicatieRijk, over overheidscommunicatie",
-      },
+    },
     NLSBB: {
       href: "https://docs.geostandaarden.nl/nl-sbb/nl-sbb/",
       title: "NL-SBB - Standaard voor het beschrijven van begrippen",
-      authors: [
-        "Geonovum Standaard - versie ter vaststelling.",
-      ],
+      authors: ["Geonovum Standaard - versie ter vaststelling."],
       date: "16 april 2024",
-      },
+    },
     TOOI_WL: {
       title: "TOOI-waardelijsten",
       href: "https://standaarden.overheid.nl/tooi/waardelijsten/",
-      publisher: "Kennis- en exploitatiecentrum Officiële Overheidspublicaties (KOOP)",
-      },
+      publisher:
+        "Kennis- en exploitatiecentrum Officiële Overheidspublicaties (KOOP)",
+    },
     TOP_Lijst: {
       title: "Thema-indeling voor Officiële Publicaties",
       href: "https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/thema-indeling-voor-officiele-publicaties",
-      publisher: "Kennis- en exploitatiecentrum Officiële Overheidspublicaties (KOOP)",
-      },
+      publisher:
+        "Kennis- en exploitatiecentrum Officiële Overheidspublicaties (KOOP)",
+    },
     IAMA: {
       title: "Impact Assessment Mensenrechten en Algoritmes (IAMA)",
       href: "https://www.rijksoverheid.nl/documenten/rapporten/2021/02/25/impact-assessment-mensenrechten-en-algoritmes",
       publisher: "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
-      },
+    },
     DPIA: {
       title: "Data protection impact assessment (DPIA)",
       href: "https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/praktisch-avg/data-protection-impact-assessment-dpia",
-      publisher: "De Autoriteit Persoonsgegevens (AP) ",        },
+      publisher: "De Autoriteit Persoonsgegevens (AP) ",
     },
+  },
 
   // Create PDF and link to file in header (optional):
   alternateFormats: [
     {
       label: "pdf",
-      uri: "Algoritmeregister-Publicatiestandaard.pdf",
+      uri: "https://regels.overheid.nl/publicaties/algoritmeregister-publicatiestandaard/pdf",
     },
   ],
 };
