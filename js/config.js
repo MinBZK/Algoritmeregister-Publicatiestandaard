@@ -9,8 +9,8 @@ let respecConfig = {
 
   // shortName = Repository name
   shortName: "Algoritmeregister-Publicatiestandaard",
-  publishDate: "2024-07-09",
-  publishVersion: "1.0.9",
+  publishDate: "2024-11-29",
+  publishVersion: "1.0.10",
 
   previousPublishVersion: "1.0.7",
   previousPublishDate: "2024-05-28",
@@ -77,7 +77,7 @@ let respecConfig = {
   alternateFormats: [
     {
       label: "pdf",
-      uri: "https://regels.overheid.nl/publicaties/algoritmeregister-publicatiestandaard/pdf",
+      uri: "https://regels.overheid.nl/standaarden/algoritmeregister-publicatiestandaard/pdf",
     },
   ],
 };
